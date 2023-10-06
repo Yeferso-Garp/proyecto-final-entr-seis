@@ -1,0 +1,455 @@
+
+/* REGISTER PAGE */
+.register_countainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .register_image {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    transition: transform 0.3s;
+  }
+
+  .register_image:hover {
+    transform: scale(1.08);
+  }
+  
+  .register_countainer_form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register_form {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .register_email,
+  .register_name,
+  .register_password {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: transform 0.5s;
+  }
+
+  
+  
+  .register_email label,
+  .register_name label,
+  .register_password label {
+    margin-bottom: 5px;
+    color: antiquewhite;
+  }
+
+  .register_input {
+    padding: 6px;
+    transition: transform 0.3s;
+  }
+  
+  .register_input:hover {
+    transform: scale(1.03);
+  }
+
+  .register_btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .register_btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .register_parrafo {
+    margin-top: 10px;
+    color: aliceblue;
+  }
+  
+  .register_parrafo a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: transform 0.3s;
+  }
+  
+  .register_parrafo a:hover {
+    text-decoration: dashed;
+    color: #3806ec;
+  }
+
+  @media screen and (min-width: 690px) {
+    .register_countainer {
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 80px;
+    }
+  
+    .register_image {
+      max-width: 300px;
+      margin-right: 50px;
+      margin-right: 50px;
+    }
+  
+    .register_countainer_form {
+      margin-top: 0;
+    }
+  
+    .register_form {
+      width: 300px;
+    }
+
+    .register_parrafo {
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+
+  /* LOGIN PAGE */
+  .login_counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+  }
+  
+  .login_image {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .login_counter_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .login_title_2 {
+    font-size: 24px;
+    color: #f5f0f0;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 3px #15dd1f;
+    font-size: 30px;
+  }
+  
+  .login_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login_form_email,
+  .login_form_password {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .login_input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #0a0a0a;
+    transition: transform 0.3s;
+  }
+
+  .login_input:hover {
+    transform: scale(1.03);
+  }
+  
+  .login_btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #26a6d8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s;
+  }
+
+  .login_btn:hover {
+    transform: scale(1.05);
+    background-color: #1571d4;
+  }
+  
+  .login_parrafo {
+    font-size: 14px;
+    color: #f0ebeb;
+    margin-top: 20px;
+  }
+
+  .login_parrafo a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .login_parrafo a:hover {
+    color: #4895e7;
+  }
+  
+  @media screen and (min-width: 650px) {
+    .login_counter {
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 80px;
+    }
+  
+    .login_image {
+      max-width: 300px;
+      margin-right: 20px;
+      margin-right: 50px;
+    }
+  
+    .login_counter_article {
+      margin-top: 0;
+    }
+  
+    .login_form {
+      width: 200px;
+    }
+
+    .login_btn {
+        display: flex;
+        justify-content: center;
+    }
+  }
+  
+
+  /* GIFT  CONTAINER HEADER*/
+  /* Estilos para el contenedor principal */
+/* CSS for styling */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+ */
+.gift_btn_handle {
+  margin-right: 5px;
+  border: none;
+  padding: 4px;
+  border-radius: 10px 0;
+  background-color: #9fc7f3;
+  box-shadow: 4px 4px 5px red;
+  transition: transform 0.3s;
+}
+
+.gift_btn_handle:hover {
+  transform: scale(1.1);
+  background-color: #1784f8;
+}
+
+.counter_image {
+  background-image: url(https://img.freepik.com/foto-gratis/mundo-escuchando-musica_1048-5308.jpg?w=740&t=st=1696547135~exp=1696547735~hmac=108df94d96a4c183bde28def7f2b066cd6bf3d0ea835eb2fe8408242d11c0218);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 50vw;
+  position: absolute;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 450px) {
+  .counter_image {
+      width: 250px;
+      
+  }
+}
+
+.gift_countainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  padding: 20px;
+}
+
+.gift_title_title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #ece9e9;
+  text-shadow: 4px 4px 4px rgba(221, 9, 9, 0.7);
+  display: flex;
+  justify-content: center;
+}
+
+.gift_countainer_form {
+  width: 90%;
+  margin-left: 10px;
+  max-width: 400px; 
+}
+
+.gift_form_form {
+  margin-bottom: 10px;
+}
+
+.gift_form_form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gift_form_form input, .gift_message {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 10px;
+}
+
+.gift_form_form input, .gift_message:hover {
+  transform: scale(1.02);
+}
+
+.gift_total {
+  margin-bottom: 10px;
+}
+
+.gift_btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 90%;
+  margin-left: 15px;
+  
+}
+
+.gift_btn:hover {
+  background-color: #15dd1f;
+  transform: scale(1.06);
+}
+
+
+/* HOME PAGE */
+.home_page_form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.home_page_input {
+  padding: 6px 2px;
+  border-radius: 5px;
+  border: none;
+  background-color: #dce1e6;
+  color: #333;
+}
+
+.home_page_select {
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+
+/* TRACK CARD */
+.track_card_countainer {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.track_card_header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.track_card_image {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.track_card_link {
+  text-align: center;
+}
+
+.track_card_link h3 {
+  margin: 0;
+}
+
+.track_card_ul {
+  list-style: none;
+  padding: 0;
+}
+
+.track_card_list {
+  cursor: pointer;
+}
+
+.track_card_footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.trak_card_ancla, .track_card_btn {
+  font-size: 24px; 
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.trak_card_ancla:hover, .track_card_btn:hover {
+  color: blue; 
+}
+
+@media (min-width: 768px) {
+  .track_card_countainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .track_card_countainer .track_card_header,
+  .track_card_countainer .track_card_footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .track_card_image {
+    width: 100%; 
+    max-width: 200px; 
+    height: auto; 
+    margin-bottom: 10px;
+  }
+}
